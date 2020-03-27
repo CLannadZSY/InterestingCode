@@ -356,3 +356,15 @@ def digitize(n):
 
 digitize(123)  # [1, 2, 3]
 
+
+"""
+引用自己
+"""
+def quote_myself():
+    a = [1,2]
+    a += a
+    print(a)
+    a.append(a)
+    print(a)
+
+quote_myself()
