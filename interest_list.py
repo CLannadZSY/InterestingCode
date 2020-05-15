@@ -368,3 +368,10 @@ def quote_myself():
     print(a)
 
 quote_myself()
+
+
+"""
+for 实现死循环
+"""
+for i in iter(int, 1):
+    print(i)
